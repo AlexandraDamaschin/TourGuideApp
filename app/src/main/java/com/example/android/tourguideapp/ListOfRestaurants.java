@@ -18,16 +18,16 @@ public class ListOfRestaurants extends AppCompatActivity {
         //create a list of events
         ArrayList<Event> restaurants = new ArrayList<Event>();
 
-        restaurants.add(new Event(R.drawable.meeting, "Chez Max", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.business, "THE PORT HOUSE PINTXOS", "TEMPLE BAR"));
-        restaurants.add(new Event(R.drawable.social, "PABLO PICANTE'S", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.meeting, "CRACKBIRD", "Dame Street"));
-        restaurants.add(new Event(R.drawable.business, "KINARA KITCHEN", "RANELAGH"));
-        restaurants.add(new Event(R.drawable.social, "GREEN NINETEEN", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.meeting, "PAULIE'S PIZZA", "SOUTHSIDE SUBURBS"));
-        restaurants.add(new Event(R.drawable.business, "JO'BURGER TOWN", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.social, "BUNSEN", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.meeting, "NEON", "CITY CENTRE"));
+        restaurants.add(new Event(R.drawable.restaurant_green, "Chez Max", "GRAFTON STREET AND ENVIRONS"));
+        restaurants.add(new Event(R.drawable.restautant_yellow, "THE PORT HOUSE PINTXOS", "TEMPLE BAR"));
+        restaurants.add(new Event(R.drawable.restaurant_green, "PABLO PICANTE'S", "GRAFTON STREET AND ENVIRONS"));
+        restaurants.add(new Event(R.drawable.restautant_yellow, "CRACKBIRD", "Dame Street"));
+        restaurants.add(new Event(R.drawable.restaurant_green, "KINARA KITCHEN", "RANELAGH"));
+        restaurants.add(new Event(R.drawable.restautant_yellow, "GREEN NINETEEN", "GRAFTON STREET AND ENVIRONS"));
+        restaurants.add(new Event(R.drawable.restaurant_green, "PAULIE'S PIZZA", "SOUTHSIDE SUBURBS"));
+        restaurants.add(new Event(R.drawable.restautant_yellow, "JO'BURGER TOWN", "GRAFTON STREET AND ENVIRONS"));
+        restaurants.add(new Event(R.drawable.restaurant_green, "BUNSEN", "GRAFTON STREET AND ENVIRONS"));
+        restaurants.add(new Event(R.drawable.restautant_yellow, "NEON", "CITY CENTRE"));
 
         ListView listView = findViewById(R.id.list);
         adapter = new EventAdapter(restaurants, getApplicationContext());
