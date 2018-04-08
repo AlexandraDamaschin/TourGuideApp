@@ -4,30 +4,30 @@ import java.util.Date;
 
 public class Event {
     //variables needed
-    private int image;
-    private String name;
-    private String location;
+    private int nImage;
+    private String mName;
+    private String mLocation;
 
     //contructor
-    public Event(int mImage, String mName, String mLocation) {
-        image = mImage;
-        name = mName;
-        location = mLocation;
+    public Event(int image, String name, String location) {
+        nImage = image;
+        mName = name;
+        mLocation = location;
     }
 
     //get image
     public int getImage() {
-        return image;
+        return nImage;
     }
 
     //get name
     public String getName() {
-        return name;
+        return mName;
     }
 
     //get location
     public String getLocation() {
-        return location;
+        return mLocation;
     }
 
 }
