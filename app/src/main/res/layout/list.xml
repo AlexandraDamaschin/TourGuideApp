@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.tourguideapp.List">
+    tools:context="com.example.android.tourguideapp.Event">
 
 </ListView>

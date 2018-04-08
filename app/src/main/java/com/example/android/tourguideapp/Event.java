@@ -4,21 +4,19 @@ import java.util.Date;
 
 public class Event {
     //variables needed
-    private String image;
+    private int image;
     private String name;
     private String location;
-    private Date date;
 
     //contructor
-    public Event(String mImage, String mName, String mLocation, Date mDate) {
+    public Event(int mImage, String mName, String mLocation) {
         image = mImage;
         name = mName;
         location = mLocation;
-        date = mDate;
     }
 
     //get image
-    public String getImage() {
+    public int getImage() {
         return image;
     }
 
@@ -32,8 +30,4 @@ public class Event {
         return location;
     }
 
-    //get date
-    public Date getDate() {
-        return date;
-    }
 }
