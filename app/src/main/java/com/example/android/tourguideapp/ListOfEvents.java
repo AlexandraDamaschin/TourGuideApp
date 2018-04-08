@@ -3,7 +3,6 @@ package com.example.android.tourguideapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ImageView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
