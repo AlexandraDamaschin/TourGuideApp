@@ -18,18 +18,18 @@ public class ListOfEvents extends AppCompatActivity {
         //create a list of events
         ArrayList<Event> events = new ArrayList<Event>();
 
-        events.add(new Event(R.drawable.meeting, "IT Sligo Presentation", "Sligo"));
-        events.add(new Event(R.drawable.business, "Internship with us", "Dublin"));
-        events.add(new Event(R.drawable.social, "Walk around Cork", "Cork"));
-        events.add(new Event(R.drawable.meeting, "Google app development", "Galway"));
-        events.add(new Event(R.drawable.business, "IT is for you!", "Dublin"));
-        events.add(new Event(R.drawable.social, "Parks and nature", "Boyle"));
-        events.add(new Event(R.drawable.meeting, "Trinity college walk", "Dublin"));
-        events.add(new Event(R.drawable.business, "What`s next in your career?", "Sligo"));
-        events.add(new Event(R.drawable.social, "Relax and enjoy the beach", "Rosses Point"));
-        events.add(new Event(R.drawable.meeting, "Github introduction", "Dublin"));
-        events.add(new Event(R.drawable.business, "Database presentation", "Sligo"));
-        events.add(new Event(R.drawable.social, "Marathon", "Dublin"));
+        events.add(new Event(R.drawable.meeting, getResources().getString(R.string.event_1), getResources().getString(R.string.sligo)));
+        events.add(new Event(R.drawable.business, getResources().getString(R.string.event_2), getResources().getString(R.string.dublin)));
+        events.add(new Event(R.drawable.social, getResources().getString(R.string.event_3), getResources().getString(R.string.cork)));
+        events.add(new Event(R.drawable.meeting, getResources().getString(R.string.event_4), getResources().getString(R.string.galway)));
+        events.add(new Event(R.drawable.business, getResources().getString(R.string.event_5), getResources().getString(R.string.dublin)));
+        events.add(new Event(R.drawable.social, getResources().getString(R.string.event_6), getResources().getString(R.string.boyle)));
+        events.add(new Event(R.drawable.meeting, getResources().getString(R.string.event_7), getResources().getString(R.string.dublin)));
+        events.add(new Event(R.drawable.business, getResources().getString(R.string.event_8), getResources().getString(R.string.sligo)));
+        events.add(new Event(R.drawable.social, getResources().getString(R.string.event_9), getResources().getString(R.string.rosses_point)));
+        events.add(new Event(R.drawable.meeting, getResources().getString(R.string.event_10), getResources().getString(R.string.dublin)));
+        events.add(new Event(R.drawable.business, getResources().getString(R.string.event_11), getResources().getString(R.string.sligo)));
+        events.add(new Event(R.drawable.social, getResources().getString(R.string.event_12), getResources().getString(R.string.dublin)));
 
 
         ListView listView = findViewById(R.id.list);

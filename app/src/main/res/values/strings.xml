@@ -5,4 +5,23 @@
     <string name="museums">Museums</string>
     <string name="parks">Parks</string>
     <string name="restaurants">Restaurants</string>
+    <string name="event_1">IT Sligo Presentation</string>
+    <string name="event_2">Internship with us</string>
+    <string name="event_3">Walk around Cork</string>
+    <string name="event_4">Google app development</string>
+    <string name="event_5">IT is for you!</string>
+    <string name="event_6">Parks and nature"</string>
+    <string name="event_7">Trinity college walk</string>
+    <string name="event_8">What`s next in your career?</string>
+    <string name="event_9">Relax and enjoy the beach</string>
+    <string name="event_10">Github introduction</string>
+    <string name="event_11">Database presentation</string>
+    <string name="event_12">Marathon</string>
+    <string name="sligo">Sligo</string>
+    <string name="dublin">Dublin</string>
+    <string name="cork">Cork</string>
+    <string name="galway">Galway</string>
+    <string name="boyle">Boyle</string>
+    <string name="rosses_point">Rosses Point</string>
+
 </resources>
