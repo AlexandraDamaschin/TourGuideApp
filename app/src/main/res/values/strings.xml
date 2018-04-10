@@ -23,5 +23,21 @@
     <string name="galway">Galway</string>
     <string name="boyle">Boyle</string>
     <string name="rosses_point">Rosses Point</string>
-
+    <string name="museum_1">Kilmainham Gaol</string>
+    <string name="museum_2">The Art House</string>
+    <string name="museum_3">Michael Davitt Museum</string>
+    <string name="museum_4">Irish Military War Museum and Family Park</string>
+    <string name="museum_5">Old Irish Ways</string>
+    <string name="museum_6">EPIC The Irish Emigration Museum</string>
+    <string name="museum_7">Derryglad Folk and Heritage Museum</string>
+    <string name="museum_8">Croke Park Stadium Tour and GAA Museum</string>
+    <string name="museum_9">Irish Whiskey Museum</string>
+    <string name="museum_10">Nano Nagle Place</string>
+    <string name="museum_11">The Little Museum of Dublin</string>
+    <string name="museum_12">Leahys Open Farm </string>
+    <string name="dunfanaghy">Dunfanaghy</string>
+    <string name="foxford">Foxford</string>
+    <string name="starinagh">Starinagh</string>
+    <string name="bruff">Bruff</string>
+    <string name="athlone">Athlone</string>
 </resources>
