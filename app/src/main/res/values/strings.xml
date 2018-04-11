@@ -40,4 +40,18 @@
     <string name="starinagh">Starinagh</string>
     <string name="bruff">Bruff</string>
     <string name="athlone">Athlone</string>
+    <string name="park_1">Ardgillan</string>
+    <string name="park_2">Ballycroy National Park</string>
+    <string name="park_3">Coole Park</string>
+    <string name="park_4">Doneraile Park</string>
+    <string name="park_5">Glenveagh National Park</string>
+    <string name="park_6">Gougane Barra</string>
+    <string name="park_7">Killarney National Park</string>
+    <string name="park_8">Lough Boora</string>
+    <string name="park_9">The Phoenix Park</string>
+    <string name="park_10">St Stephen’s Green</string>
+    <string name="mayo">Mayo</string>
+    <string name="donegal">Donegal</string>
+    <string name="offlay">Offaly</string>
+    <string name="kerry">Kerry</string>
 </resources>
