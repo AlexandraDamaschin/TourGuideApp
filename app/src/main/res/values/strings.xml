@@ -54,4 +54,20 @@
     <string name="donegal">Donegal</string>
     <string name="offlay">Offaly</string>
     <string name="kerry">Kerry</string>
+    <string name="restaurant_1">Chez Max</string>
+    <string name="restaurant_2">The Port House Pintxos</string>
+    <string name="restaurant_3">Pablo Picants</string>
+    <string name="restaurant_4">Crackbird</string>
+    <string name="restaurant_5">Kinara Kitchen</string>
+    <string name="restaurant_6">Green Nineteen</string>
+    <string name="restaurant_7">Paulies Pizza</string>
+    <string name="restaurant_8">JO BURGER TOWN</string>
+    <string name="restaurant_9">Bunsen</string>
+    <string name="restaurant_10">Neon</string>
+    <string name="grafton_street">Grafton Street and Environs</string>
+    <string name="temple_bar">Temple Bar</string>
+    <string name="dame_street">Dame Street</string>
+    <string name="ranelagh">Ranelagh</string>
+    <string name="southside">Southside Suburbs</string>
+    <string name="city_center">City Center</string>
 </resources>

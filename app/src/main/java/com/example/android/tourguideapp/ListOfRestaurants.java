@@ -18,16 +18,16 @@ public class ListOfRestaurants extends AppCompatActivity {
         //create a list of events
         ArrayList<Event> restaurants = new ArrayList<Event>();
 
-        restaurants.add(new Event(R.drawable.restaurant_green, "Chez Max", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.restautant_yellow, "THE PORT HOUSE PINTXOS", "TEMPLE BAR"));
-        restaurants.add(new Event(R.drawable.restaurant_green, "PABLO PICANTE'S", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.restautant_yellow, "CRACKBIRD", "Dame Street"));
-        restaurants.add(new Event(R.drawable.restaurant_green, "KINARA KITCHEN", "RANELAGH"));
-        restaurants.add(new Event(R.drawable.restautant_yellow, "GREEN NINETEEN", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.restaurant_green, "PAULIE'S PIZZA", "SOUTHSIDE SUBURBS"));
-        restaurants.add(new Event(R.drawable.restautant_yellow, "JO'BURGER TOWN", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.restaurant_green, "BUNSEN", "GRAFTON STREET AND ENVIRONS"));
-        restaurants.add(new Event(R.drawable.restautant_yellow, "NEON", "CITY CENTRE"));
+        restaurants.add(new Event(R.drawable.restaurant_green, getResources().getString(R.string.restaurant_1), getResources().getString(R.string.grafton_street)));
+        restaurants.add(new Event(R.drawable.restautant_yellow, getResources().getString(R.string.restaurant_2), getResources().getString(R.string.temple_bar)));
+        restaurants.add(new Event(R.drawable.restaurant_green, getResources().getString(R.string.restaurant_3), getResources().getString(R.string.grafton_street)));
+        restaurants.add(new Event(R.drawable.restautant_yellow, getResources().getString(R.string.restaurant_4), getResources().getString(R.string.dame_street)));
+        restaurants.add(new Event(R.drawable.restaurant_green, getResources().getString(R.string.restaurant_5), getResources().getString(R.string.ranelagh)));
+        restaurants.add(new Event(R.drawable.restautant_yellow, getResources().getString(R.string.restaurant_6), getResources().getString(R.string.grafton_street)));
+        restaurants.add(new Event(R.drawable.restaurant_green, getResources().getString(R.string.restaurant_7), getResources().getString(R.string.southside)));
+        restaurants.add(new Event(R.drawable.restautant_yellow, getResources().getString(R.string.restaurant_8), getResources().getString(R.string.grafton_street)));
+        restaurants.add(new Event(R.drawable.restaurant_green, getResources().getString(R.string.restaurant_9), getResources().getString(R.string.grafton_street)));
+        restaurants.add(new Event(R.drawable.restautant_yellow, getResources().getString(R.string.restaurant_10), getResources().getString(R.string.city_center)));
 
         ListView listView = findViewById(R.id.list);
         adapter = new EventAdapter(restaurants, getApplicationContext());
