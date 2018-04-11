@@ -1,7 +1,5 @@
 package com.example.android.tourguideapp;
 
-import java.util.Date;
-
 public class Event {
     //variables needed
     private int nImage;
