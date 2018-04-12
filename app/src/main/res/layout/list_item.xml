@@ -8,17 +8,17 @@
     <!--image-->
     <ImageView
         android:id="@+id/image"
-        android:layout_width="88dp"
-        android:layout_height="88dp" />
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size" />
 
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingStart="16dp">
+        android:paddingLeft="@dimen/layout_margin"
+        android:paddingRight="@dimen/layout_margin"
+        android:paddingStart="@dimen/layout_margin">
 
         <!--name-->
         <TextView
