@@ -23,32 +23,20 @@
         <!--name-->
         <TextView
             android:id="@+id/name"
+            style="@style/FragmentThemeName"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="bottom"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textStyle="bold"
-            tools:text="unu" />
+            tools:text="@string/event_1" />
 
         <!--location-->
         <TextView
             android:id="@+id/location"
+            style="@style/FragmentTheme"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="top"
-            android:textAppearance="?android:textAppearanceMedium"
-            tools:text="one" />
+            tools:text="@string/dublin" />
 
-        <!--date-->
-        <TextView
-            android:id="@+id/date"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="top"
-            android:textAppearance="?android:textAppearanceMedium"
-            tools:text="one" />
     </LinearLayout>
 </LinearLayout>

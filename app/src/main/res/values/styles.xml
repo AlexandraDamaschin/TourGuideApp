@@ -9,8 +9,22 @@
         <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 
-    <style name="CustomTabText" parent="TextAppearance.Design.Tab">
-       <item name="android:textColor">@color/secondaryTextColor</item>
+    <style name="NavCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="FragmentThemeName">
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="FragmentTheme">
+        <item name="android:gravity">top</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/text_size</item>
     </style>
 
 </resources>
