@@ -24,16 +24,16 @@ public class ParkFragment extends Fragment {
         //create a list of events
        final ArrayList<Event> parks = new ArrayList<Event>();
 
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_1), getResources().getString(R.string.dublin)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_2), getResources().getString(R.string.mayo)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_3), getResources().getString(R.string.galway)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_4), getResources().getString(R.string.cork)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_5), getResources().getString(R.string.donegal)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_6), getResources().getString(R.string.cork)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_7), getResources().getString(R.string.kerry)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_8), getResources().getString(R.string.offlay)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_9), getResources().getString(R.string.dublin)));
-        parks.add(new Event(R.drawable.park, getResources().getString(R.string.park_10), getResources().getString(R.string.dublin)));
+        parks.add(new Event(R.drawable.ardgillan, getResources().getString(R.string.park_1), getResources().getString(R.string.dublin)));
+        parks.add(new Event(R.drawable.ballycroy_national, getResources().getString(R.string.park_2), getResources().getString(R.string.mayo)));
+        parks.add(new Event(R.drawable.coole, getResources().getString(R.string.park_3), getResources().getString(R.string.galway)));
+        parks.add(new Event(R.drawable.doneraile, getResources().getString(R.string.park_4), getResources().getString(R.string.cork)));
+        parks.add(new Event(R.drawable.glenveagh, getResources().getString(R.string.park_5), getResources().getString(R.string.donegal)));
+        parks.add(new Event(R.drawable.gougane_barra, getResources().getString(R.string.park_6), getResources().getString(R.string.cork)));
+        parks.add(new Event(R.drawable.killarney, getResources().getString(R.string.park_7), getResources().getString(R.string.kerry)));
+        parks.add(new Event(R.drawable.lough_boora, getResources().getString(R.string.park_8), getResources().getString(R.string.offlay)));
+        parks.add(new Event(R.drawable.phoenix, getResources().getString(R.string.park_9), getResources().getString(R.string.dublin)));
+        parks.add(new Event(R.drawable.stephen_park, getResources().getString(R.string.park_10), getResources().getString(R.string.dublin)));
 
 
         EventAdapter adapter = new EventAdapter(parks, getContext());
